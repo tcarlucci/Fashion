@@ -1,0 +1,153 @@
+body{
+    font-family: 'tahoma', arial, sans-serif;
+}
+
+.principal{
+    width: 1024px; /* Fixar todo o conteúdo em 940px */
+    margin: 30px auto; /* margem externa cima e baixo 0 e esquerda e direita auto */
+}
+
+/* CABEÇALHO */
+
+.boxHeader{
+    background-color: rgb(8, 26, 36);
+    padding: 10px 0; /* margem interna cima e baixo em 10px */
+    position:relative; /* as LI vão se posicionar relativo a .boxHeader */
+    /* border: solid 1px rgb(255, 13, 0); /* BORDA DE VISUALIZACAO */
+}
+
+/* Posição dos 3 links */
+.boxHeader ul{
+    position:absolute; /* as LI relativo a .boxHeader */
+    bottom: 10px;
+    left: 60%;
+    padding: 10px;
+    /* border: solid 1px rgb(21, 255, 0); /* BORDA DE VISUALIZACAO */
+    
+}
+
+.boxHeader li{
+    display: inline;
+    color: white;
+    margin: 0 15px 0 auto;
+    /* border: solid 1px blue; /* BORDA DE VISUALIZACAO */
+}
+
+.navItem{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(32, 85, 90);
+    text-shadow: -0.3px 0px rgba(2, 32, 66);
+    transition: color .3s linear; /* TRANSICAO (COR) (TEMPO) (LINEAR) */
+}
+
+.navItem:hover{
+    color: rgb(50, 135, 170 );
+    text-shadow: -0.3px 0px rgba(2, 32, 66);
+}
+
+
+
+/* Posição Logo */
+.boxHeader h1{
+    display: inline-block;
+    margin-left: 18%;
+    /* border: solid 1px blue; /* BORDA DE VISUALIZACAO */
+}
+
+.imgBanner img{
+    max-width: 100%; /* OCUPAR O TAMANHO MÁXIMO DA DIV (NAO ULTRAPASSAR) */
+}
+
+/* TITULO TEXTO */
+.tagText{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    /* border: solid 2px rgb(255, 13, 0); /* BORDA DE VISUALIZACAO */
+}
+
+/* TEXTO */
+.textBlock{
+    margin: 25px auto;
+    padding: 0 100px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2; /* ESPAÇAMENTO ENTRE LINHAS (NO CASO DUPLO) */
+    /*border: solid 2px rgb(255, 13, 0); /* BORDA DE VISUALIZACAO */
+}
+
+/* GALERIA DE IMAGENS */
+.imgGalery ul{
+    margin: 80px auto;
+    text-align: center;
+    /*border: solid 2px rgb(255, 13, 0); /* BORDA DE VISUALIZACAO */
+}
+
+.imgGalery li{
+    display: inline-block;
+    margin: 10px;
+    /*border: solid 2px rgb(17, 0, 255); /* BORDA DE VISUALIZACAO */
+}
+
+.imgGalery h2{
+    font-weight: 900; /* BOLD */
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    letter-spacing: 0.1em; /* ESPAÇAMENTO ENTRE LETRAS */
+}
+
+.imgGalery p{
+    margin: 10px 0 0 0;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* BOX AZUL TITULO E TEXTO */
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color:white;
+    background-image: url(../images/bg_detalhe.png); /* Imagem pelo CSS */
+    background-repeat: no-repeat; /* não repetir */
+    background-position: right bottom; /* POSIÇAO DO BG DENTRO DO ARTICLE .about */
+}
+
+.about p{
+    width: 54%; /* PADRAO ALINHADO PELA ESQUERDA - OCUPAR 54% DO ESPAÇO HORIZOTAL DISPONIVEL */
+    margin-top: 40px;
+    line-height: 1.4; /* ESPAÇAMENTO ENTRE LINHAS */
+}
+
+.about h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.4; /* ESPAÇAMENTO ENTRE LINHAS */
+}
+
+/* CALL ME NOW */
+
+#contact{
+    color: #143f52;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:40px;
+    
+}
+
+/* RODAPE */
+
+.footer{
+    margin: 30px 0;
+    padding: 20px;
+    color: #6f8597;
+    font-size: 12px;
+    letter-spacing: .4em;   
+    text-align: center;
+    background-color: #0b171f;
+}
